@@ -1,0 +1,11 @@
+ioc:  ‘对象’把实例化及其管理的权限交给容器的这种思想，又名控制翻转
+DI:  容器会把对象依赖(关联)的其他对象注入（赋值）
+
+IOC和di是从不同角度描述的同一件事，不同的是IOC侧重于原理，DI侧重于实现
+
+
+
+动态代理和cglib代理的区别：动态代理 Proxy.newProxyInstance(类加载器，累实现的所有接口，InvocationHandler)----》类加载器使用的是
+		         ： cglib: Enhancer.create(类加载器，MethodInterceptor())
+
+从创建方式可以看出，cglib动态代理不需要传入目标类实现的接口，而是直接定位到目标类。
